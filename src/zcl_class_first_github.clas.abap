@@ -1,0 +1,18 @@
+CLASS zcl_class_first_github DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+  INTERFACES if_oo_adt_classrun.
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS zcl_class_first_github IMPLEMENTATION.
+METHOD IF_OO_ADT_CLASSRUN~main.
+out->write( 'Hello Run' ).
+ENDMETHOD.
+ENDCLASS.
